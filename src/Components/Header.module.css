@@ -1,0 +1,43 @@
+.header {
+  background-color: var(--color-brand--2);
+  color: var(--color-light--1);
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+.address > div {
+  display: flex;
+  gap: 8px;
+}
+.address > div i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialLinks a,
+.login a {
+  color: var(--color-light--1);
+  text-decoration: none;
+}
+.socialLinks i {
+  margin-right: 14px;
+  font-size: 12px;
+}
+.login {
+  display: flex;
+  gap: 16px;
+}
+.loginAccount {
+  display: flex;
+  border-right: 2px solid grey;
+  padding-right: 16px;
+  gap: 10px;
+}

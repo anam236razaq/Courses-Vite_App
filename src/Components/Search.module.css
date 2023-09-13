@@ -1,0 +1,85 @@
+.searchContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 14px;
+}
+.searchForm {
+  width: 90%;
+  max-width: 650px;
+  padding: 4px 20px;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 60px;
+}
+.searchForm input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  padding: 16px 20px;
+  outline: none;
+  font-size: 16px;
+}
+.searchForm input::placeholder {
+  color: #222222;
+}
+.searchForm button {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+}
+.searchForm button i {
+  font-size: 25px;
+}
+.searchResults {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+#closeSearch {
+  text-decoration: none;
+  color: black;
+}
+#closeSearch i {
+  font-size: 28px;
+}
+.courseDetails {
+  box-shadow: 0 0.7px 4px rgba(0, 0, 0, 0.45);
+  width: 55%;
+  min-height: 340px;
+  margin: 20px 20px 20px 0;
+  border-radius: 10px;
+}
+.courseImgs img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+.courseCategory,
+.courseName,
+.courseDetails hr {
+  margin: 15px 15px 15px 15px;
+}
+.courseCategory {
+  color: rgb(175, 175, 175);
+  font-size: 18px;
+}
+.courseName {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.courseType {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 25px;
+}

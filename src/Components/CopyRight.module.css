@@ -1,0 +1,28 @@
+.copyRight {
+  background-color: var(--color-brand--5);
+  height: 12vh;
+  color: var(--color-light--2);
+}
+.copyRight p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.copyRight p a {
+  color: var(--color-light--2);
+}
+.copyRight p a:hover,
+.socialIcons a:hover {
+  color: var(--color-brand--2);
+}
+.socialIcons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 120px;
+}
+.socialIcons a {
+  text-decoration: none;
+  color: var(--color-light--2);
+  margin-left: 20px;
+}

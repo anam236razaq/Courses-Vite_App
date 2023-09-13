@@ -1,0 +1,89 @@
+.footer {
+  background-color: var(--color-brand--5);
+  display: flex;
+  height: 62vh;
+}
+.footer .column3,
+.footer .column2 {
+  margin: 100px 10px 100px 10px;
+}
+.footer .column1 {
+  width: 25%;
+  margin: 100px 30px 100px 80px;
+}
+.footer .column4 {
+  width: 22%;
+  margin: 100px 80px 100px 30px;
+}
+
+.column2 {
+  width: 30%;
+}
+.column3 {
+  width: 18%;
+}
+.footer h2 {
+  color: var(--color-light--1);
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+.column2 h2 {
+  margin-left: 20px;
+}
+
+.footer p,
+.footer li,
+.footer i {
+  color: var(--color-light--2);
+  word-spacing: 6px;
+  font-size: 16px;
+}
+.footer ul li {
+  margin-left: 20px;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: var(--color-light--2);
+}
+.footer ul li a:hover {
+  color: var(--color-brand--2);
+}
+.contactCol {
+  display: flex;
+  gap: 25px;
+  margin: 18px 0;
+}
+.contactCol i {
+  color: var(--color-brand--2);
+  margin-top: 3px;
+}
+/**********CoursesColumn*******/
+/*****************************/
+
+.courses a {
+  text-decoration: none;
+  margin: 30px 20px;
+}
+.courseData {
+  display: flex;
+  color: var(--color-light--2);
+}
+.barImg {
+  width: 30%;
+}
+.barImg img {
+  width: 60%;
+  margin: 10px 0 0 0;
+}
+.courseName p {
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+}
+.courseName span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
