@@ -1,0 +1,24 @@
+{
+    "faqs": [
+        {
+            "title": "Is this Internship paid or unpaid?",
+            "text": "Our general Internship is unpaid but it depends upon your skills. For more details, you have to visit our office and clear a short MCQ test."
+        },
+        {
+            "title": "What are the rules to follow during training period?",
+            "text": "Student Should come on time with proper attendance. Students should complete tasks given by Software Team. All girls and Boys should Come on their own convince. Holiday application should be submitted before any leave. Projects should be Completed to get training letter."
+        },
+        {
+            "title": "Will I get certificate after my traineeship?",
+            "text": " We provide an traineeship Completion certificate at the end of the Session. A certificate is given and can be verified any time from our local website by adding its ID. We also provide Shield if any Student Goes beyond required practicum Requirements."
+        },
+        {
+            "title": "Is there any project tracking system?",
+            "text": " Each user get Intern Panel ID and Pass Where we assigned Tasks and Projects. Each Intern Attendance Daily work each thing Tracked Properly for Future Employers or Software Houses."
+        },
+        {
+            "title": "I have already done practice, what if I need job?",
+            "text": "Yes, but we give test of 7 days to evaluate your performance "
+        }
+    ]
+}
