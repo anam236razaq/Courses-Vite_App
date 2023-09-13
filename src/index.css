@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-light--1: #ffffff;
+  --color-light--2: #e6e6e6;
+  --color-dark--1: #000;
+  --color-dark--2: #3d3d3d;
+  --color-brand--1: #273044;
+  --color-brand--2: #2575ed;
+  --color-brand--3: #001a41;
+  --color-brand--4: #4c92fc;
+  --color-brand--5: #042d89;
+  --color-brand--6: #1dcaff;
+  --color-brand--7: #042d89;
+  --color-form--1: #f0f2f5;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/**********Slider**********/
+/**************************/
+.slick-prev {
+  left: 25px;
+  z-index: 1;
+}
+[dir="rtl"] .slick-prev {
+  right: 25px;
+}
+
+.slick-next {
+  right: 25px;
+}
+[dir="rtl"] .slick-next {
+  left: 25px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 35px;
+}
+
+.slick-dots li button:before {
+  font-size: 9px;
+}
