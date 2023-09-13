@@ -1,0 +1,24 @@
+.freeCertification,
+.paidCertification {
+  margin: 20px 180px 40px 180px;
+  color: var(--color-dark--2);
+}
+.freeCertification h2,
+.paidCertification h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.freeCertification p,
+.paidCertification p {
+  margin-bottom: 20px;
+}
+.freeCertification span,
+.paidCertification span {
+  font-weight: 700;
+  font-size: 14px;
+}
+.freeCertification li,
+.paidCertification li {
+  margin: 15px 0 15px 20px;
+}

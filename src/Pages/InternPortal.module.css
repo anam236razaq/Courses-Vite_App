@@ -1,0 +1,82 @@
+.internPortal {
+  display: flex;
+  color: var(--color-dark--2);
+}
+.internImg {
+  width: 70%;
+}
+.internImg img {
+  height: 90vh;
+}
+.internRows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+.internForm h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+.internForm p {
+  margin: 10px 0 20px 0;
+}
+.internForm .input {
+  margin: 6px 0 14px 0;
+}
+.internForm a {
+  margin-left: 200px;
+}
+.internForm .input,
+.internForm .btn {
+  width: 100%;
+  padding: 10px 0 10px 7px;
+  border-radius: 5px;
+  outline: none;
+}
+.internForm .btn {
+  margin-top: 10px;
+  background-color: #7367f0;
+  color: var(--color-light--1);
+  border: none;
+  font-size: 16px;
+}
+.internForm .btn:hover {
+  box-shadow: 0px 0.7px 4px rgba(0, 0, 0, 0.45);
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.socialIcons a {
+  text-decoration: none;
+}
+.socialIcons i {
+  color: var(--color-light--1);
+  padding: 10px;
+  font-size: 10px;
+}
+.facebook {
+  margin-top: 5px;
+  background-color: rgb(53, 53, 221);
+}
+.facebook i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.behance i {
+  background-color: #053eff;
+}
+.instagram i {
+  background-color: #c92228;
+}
+.linkedIn i {
+  background-color: #3f729b;
+}
+.loginMessage {
+  text-align: center;
+}

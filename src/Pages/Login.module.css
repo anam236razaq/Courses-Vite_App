@@ -1,0 +1,110 @@
+.loginForm {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  width: 86%;
+}
+.login {
+  width: 41%;
+}
+.signUp {
+  width: 41%;
+}
+.login h1,
+.signUp h1 {
+  color: var(--color-dark--2);
+}
+.form,
+.signupForm {
+  margin-top: 20px;
+  height: 45vh;
+  width: 94%;
+}
+.form {
+  background-color: var(--color-brand--2);
+}
+.signupForm {
+  background-color: rgb(228, 228, 228);
+}
+.formDetails {
+  display: flex;
+  flex-direction: column;
+}
+.signupRows {
+  padding-top: 20px;
+  margin: 0 0 0 40px;
+  color: var(--color-dark--2);
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+}
+.formDetails label {
+  margin: 20px 40px 10px 40px;
+  color: var(--color-light--1);
+  font-size: 18px;
+}
+.signupRows .signUpDetails {
+  width: 52%;
+}
+.formDetails input {
+  margin: 0 40px;
+}
+.formDetails input,
+.signupRows input {
+  padding: 10px 0 10px 5px;
+  border: none;
+  outline: none;
+}
+.signupRows input {
+  margin-top: 10px;
+}
+.forgotPassword {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.forgotPassword,
+.register {
+  margin: 40px 40px 0 40px;
+}
+.register label {
+  color: var(--color-dark--2);
+  font-size: 18px;
+}
+.forgotPassword label {
+  color: var(--color-light--1);
+  font-size: 18px;
+}
+.forgotPassword input,
+.register input {
+  margin-right: 5px;
+}
+.forgotPassword button,
+.register button {
+  padding: 13px 40px;
+  border: none;
+  outline: none;
+  background-color: #61ce70;
+  color: var(--color-light--1);
+  font-size: 18px;
+  border-radius: 6px;
+}
+.register button {
+  margin-left: 85px;
+  padding: 13px 35px;
+}
+
+.loginMessage,
+.signUpMessage {
+  text-align: center;
+  font-size: 16px;
+}
+.loginMessage {
+  color: var(--color-light--1);
+}
+.signUpMessage {
+  color: var(--color-dark--2);
+}

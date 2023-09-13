@@ -1,0 +1,229 @@
+/***********SingleCourse*********/
+/********************************/
+
+.singleCourse {
+  height: 60vh;
+  background-color: #102846;
+}
+.description {
+  margin-left: 120px;
+}
+.descriptionName {
+  padding-top: 30px;
+  color: var(--color-light--1);
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.descriptionText {
+  width: 60%;
+  color: lightgrey;
+  font-size: 25px;
+  line-height: 35px;
+}
+.descriptionRows {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.courseImg,
+.courseEnroll,
+.courseLectures,
+.courseTime {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: lightgray;
+  font-size: 18px;
+}
+.courseImg img {
+  width: 30%;
+  border-radius: 50%;
+}
+.courseEnroll {
+  width: 18%;
+}
+.courseLectures {
+  width: 12%;
+}
+
+/***********DescriptionTab*********/
+/********************************/
+.detailedDescription {
+  display: flex;
+  background-color: rgb(233, 233, 233);
+}
+.descriptionTabsContainer {
+  width: 70%;
+  margin-left: 100px;
+}
+.tabs {
+  margin-bottom: 40px;
+  background-color: var(--color-light--1);
+  box-shadow: 0 0.7px 4px rgba(0, 0, 0, 0.45);
+  width: 92%;
+  color: var(--colors-dark--2);
+}
+.desc h2 {
+  margin: 0 0 20px 20px;
+  padding-top: 20px;
+}
+.desc p,
+.eligibilityDescription {
+  width: 90%;
+  margin: 0 0 20px 30px;
+  line-height: 25px;
+}
+.eligibilityDescription {
+  font-size: 18px;
+  padding-bottom: 40px;
+  line-height: 30px;
+  margin-left: 50px;
+}
+.reviews {
+  padding: 20px 0;
+}
+.reviews p {
+  margin-left: 20px;
+}
+.reviews a {
+  text-decoration: none;
+  color: var(--color-brand--2);
+}
+
+.tabBtn {
+  margin-top: 40px;
+  width: 30.66%;
+  padding: 18px 0;
+  background-color: #102846;
+  color: white;
+  font-size: 17px;
+  border: none;
+  outline: none;
+}
+.active,
+.tabBtn:hover {
+  background-color: var(--color-brand--2);
+}
+
+/***********DescriptionBar*********/
+/********************************/
+
+.descriptionBarContainer {
+  width: 30%;
+}
+.descriptionBar {
+  margin: -390px 100px 0 0;
+  width: 92%;
+  box-shadow: 0 0.7px 4px rgba(0, 0, 0, 0.45);
+  height: 175vh;
+  background-color: var(--color-light--1);
+}
+.descriptionImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descriptionImg img {
+  margin: 30px 0;
+  width: 90%;
+}
+.descriptionBtn {
+  width: 90%;
+  margin: 0 20px 20px 20px;
+  background-color: var(--color-brand--2);
+  padding: 14px 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: var(--color-light--1);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.descriptionDetails {
+  margin: 0 20px;
+  color: var(--color-dark--2);
+}
+.descriptionDetails > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.descriptionDetails i {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.descriptionDetails h1 {
+  margin: 15px 0;
+}
+
+/***********CoursesBar*********/
+/********************************/
+
+.courses a {
+  text-decoration: none;
+  margin: 40px;
+}
+.courseData {
+  display: flex;
+  color: var(--color-dark--2);
+}
+.barImg {
+  width: 30%;
+}
+.barImg img {
+  width: 70%;
+  margin: 10px 0 0 0;
+}
+.courseName {
+  font-size: 12px;
+}
+.courseName span {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--color-dark--1);
+}
+.coursePrice {
+  background-color: var(--color-brand--2);
+  width: 25%;
+  padding: 2px;
+  color: var(--color-light--1);
+}
+
+/***********Working Hours*********/
+/********************************/
+
+.workingHours {
+  margin: 20px;
+  color: var(--color-dark--2);
+}
+.workingHours h1 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.workingHours > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.hours {
+  border-bottom: 2px dashed lightgray;
+}
+.hours p {
+  margin-bottom: 8px;
+}
+.hours:hover {
+  color: var(--color-brand--2);
+}
+.close {
+  background-color: red;
+  padding: 2px 6px;
+  color: var(--color-light--1);
+  border-radius: 5px;
+  font-size: 14px;
+}

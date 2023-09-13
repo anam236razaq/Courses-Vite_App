@@ -1,0 +1,348 @@
+/**********HeroSection*****/
+/**************************/
+
+.heroSection {
+  height: 100vh;
+  background-image: url("/src/assets/HomeImgs/hero-img.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: var(--color-brand--7);
+  opacity: 0.4;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 95vh;
+}
+
+.hero h1,
+.hero span {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  z-index: 1;
+}
+.hero h1 {
+  color: var(--color-light--1);
+}
+.hero span {
+  position: relative;
+  color: #00c3ffc2;
+}
+.hero h3 {
+  margin: 20px 0;
+  color: var(--color-light--1);
+  z-index: 1;
+  font-weight: 200;
+  font-size: 25px;
+}
+.search {
+  background-color: var(--color-light--1);
+  z-index: 1;
+  width: 30%;
+  padding: 8px 0;
+}
+.search input {
+  width: 90%;
+  gap: 14px;
+  padding: 12px 0 12px 12px;
+  border: none;
+  outline: none;
+}
+.search i {
+  color: var(--color-dark--2);
+}
+::placeholder {
+  font-size: 14px;
+}
+
+/**********ServiceAward*****/
+/**************************/
+
+.award,
+.workScenario {
+  margin: 40px 200px 0 200px;
+}
+.award h1,
+.workScenario h6 {
+  text-align: center;
+  color: var(--color-dark--2);
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.awardContainer {
+  display: flex;
+}
+.awardImg {
+  width: 45%;
+}
+.awardImg img {
+  height: 60vh;
+}
+.awardContent {
+  margin-left: 40px;
+}
+.awardContent span {
+  font-weight: 700;
+}
+.awardContent p {
+  margin-top: 5px;
+  color: var(--color-dark--2);
+}
+.awardContent a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-brand--2);
+}
+.awardContent a:hover {
+  color: var(--color-brand--5);
+  transition: 0.5s;
+}
+.awardContent button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  outline: none;
+  color: var(--color-light--1);
+  background-color: var(--color-brand--2);
+  font-size: 16px;
+}
+
+/**********ServiceAward*****/
+/**************************/
+
+.workScenario h6 {
+  font-weight: 200;
+}
+.workContainer {
+  display: flex;
+  height: 45vh;
+}
+.workCol {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-dark--2);
+}
+.workCol span {
+  font-size: 22px;
+  text-align: center;
+  margin: 10px 0;
+}
+.workCol p {
+  text-align: center;
+}
+
+/**********Trends*****/
+/**************************/
+
+.trends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-dark--2);
+}
+.trends h1 {
+  text-align: center;
+  font-weight: 200;
+  margin: 30px 0 20px 0;
+  font-size: 40px;
+}
+.trends p {
+  width: 40%;
+  text-align: center;
+  line-height: 22px;
+}
+.trendsCategories {
+  display: flex;
+  margin: 20px 100px 0 100px;
+  flex-wrap: wrap;
+}
+.trendsCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 13%;
+  margin: 22px;
+  padding: 30px 0;
+  box-shadow: 0 0.4px 7px rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+}
+.trendsCol img {
+  margin-bottom: 10px;
+}
+.trendsCategories a {
+  text-decoration: none;
+  color: var(--color-dark--2);
+  font-size: 16px;
+}
+
+/**********Recommended Courses*****/
+/**************************/
+.recomCourses {
+  margin: 60px 10px;
+}
+.recomCourses h1,
+.recentCourses h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 40px;
+}
+.courseCol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center;
+}
+.courseDetails {
+  box-shadow: 0 0.7px 4px rgba(0, 0, 0, 0.45);
+  width: 18%;
+  min-height: 340px;
+  margin: 20px 20px 20px 0;
+  border-radius: 10px;
+}
+.courseImgs img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+.courseCategory,
+.courseName,
+.courseDetails hr {
+  margin: 15px 15px 15px 15px;
+}
+.courseCategory {
+  color: rgb(175, 175, 175);
+  font-size: 18px;
+}
+.courseName {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.courseType {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 25px;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paginationBtn {
+  padding: 10px 15px;
+  background-color: var(--color-brand--2);
+  color: var(--color-light--1);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+/**********Recent Courses*****/
+/**************************/
+.recentCourses {
+  background-color: rgb(236, 236, 236);
+  margin: 60px 0;
+}
+.recentCourses h1 {
+  text-align: left;
+  margin-left: 20px;
+}
+.sortPortion {
+  display: flex;
+  justify-content: space-between;
+}
+.sorting {
+  margin: 30px 60px 0 0;
+}
+.sorting select {
+  padding: 14px 6px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.loadBtn {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loadBtn button {
+  padding: 20px 24px;
+  background-color: var(--color-brand--2);
+  color: var(--color-light--1);
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+/**********HomeImgs*****/
+/**************************/
+
+.homeImg1 {
+  margin: 40px 200px 0 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 90.5vh;
+}
+.img1 {
+  width: 50%;
+}
+.homeContent {
+  margin-top: 80px;
+  width: 60%;
+}
+.homeContent h1 {
+  font-size: 40px;
+}
+.homeContent span {
+  color: var(--color-brand--2);
+}
+.homeContent p {
+  margin: 15px 0 20px 0;
+  width: 70%;
+}
+.homeContent img {
+  margin-left: 10px;
+}
+.homeImg2 {
+  height: 100vh;
+  background-color: var(--color-brand--5);
+}
+.homeImg2 h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 25px;
+  margin: 0 0 40px 0;
+  color: var(--color-light--1);
+}
+.homeImg2 img {
+  margin-top: 20px;
+  width: 100%;
+}
+.homeImg2 span {
+  color: var(--color-brand--2);
+}

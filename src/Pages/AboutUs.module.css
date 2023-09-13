@@ -1,0 +1,116 @@
+/************About Hero********/
+/******************************/
+
+.about-hero {
+  height: 90vh;
+}
+.heroSlider {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  color: var(--color-light--1);
+}
+.slide1 {
+  background-image: url("/src/assets/AboutImgs/about-hero-1.png");
+}
+.slide2 {
+  background-image: url("/src/assets/AboutImgs/about-hero-2.png");
+}
+.slide3 {
+  background-image: url("/src/assets/AboutImgs/about-hero-3.png");
+}
+.slide4 {
+  background-image: url("/src/assets/AboutImgs/about-hero-4.png");
+}
+.heroSlider h1 {
+  color: var(--color-light--1);
+  margin: 150px 0 0 150px;
+  font-size: 65px;
+  font-weight: 700;
+}
+.heroSlider p {
+  margin: 15px 0 0 150px;
+  font-size: 28px;
+  width: 45%;
+}
+
+/************Icons********/
+/******************************/
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 150px 200px 0 0;
+  gap: 20px;
+}
+.icons a {
+  text-decoration: none;
+  color: var(--color-light--1);
+  font-size: 24px;
+}
+
+/************Identity********/
+/******************************/
+
+.identity {
+  margin: 40px 140px 0 140px;
+  height: 80vh;
+}
+.identity h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 34px;
+  color: var(--color-dark--2);
+}
+.identity > div {
+  display: flex;
+}
+.identitySlides {
+  width: 52%;
+}
+.identityContent {
+  width: 48%;
+  margin-left: 40px;
+  color: var(--color-dark--3);
+  font-size: 16px;
+}
+.identityContent p {
+  width: 90%;
+  margin: 10px 0 26px 0;
+}
+.identityContent h3 {
+  font-size: 28px;
+  color: var(--color-dark--2);
+}
+.identityContent span {
+  font-weight: 700;
+  color: var(--color-dark--2);
+}
+.identityContent a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-brand--2);
+}
+.identityContent a:hover {
+  color: var(--color-brand--5);
+  transition: 0.5s;
+}
+
+/************Registered********/
+/******************************/
+
+.registered {
+  margin: 40px 200px 0 200px;
+  height: 30vh;
+}
+.registered h1 {
+  margin-bottom: 40px;
+  text-align: center;
+  color: var(--color-dark--2);
+}
+.registeredImgs img {
+  width: 70%;
+}

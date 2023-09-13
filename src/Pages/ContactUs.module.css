@@ -1,0 +1,44 @@
+/************ContactDetails******/
+/********************************/
+
+.contact {
+  margin: 40px 200px 0 200px;
+  display: flex;
+}
+.contactDetails h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: var(--color-dark--2);
+}
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.contactContent p {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.contactContent p,
+.contactMap p {
+  color: var(--color-dark--2);
+  margin-top: 10px;
+}
+.contactColumns {
+  display: flex;
+  flex-direction: row;
+}
+.contactColumns h4 {
+  margin: 6px 0;
+  color: var(--color-dark--2);
+}
+.contactColumns a,
+.contactColumns p {
+  color: var(--color-dark--2);
+}
+.contactCol1 {
+  width: 55%;
+}
+.contactMap {
+  width: 50%;
+}

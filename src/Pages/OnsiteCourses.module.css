@@ -1,0 +1,115 @@
+/***********FreeCourses*******/
+/*****************************/
+
+.onsiteCourses,
+.OnsiteCoursesData {
+  margin: 40px 180px 0 180px;
+  color: var(--color-dark--2);
+}
+.OnsiteCoursesData {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.onsiteCourses h1 {
+  margin: 50px 0;
+  font-size: 40px;
+}
+.onsiteCourses h3 {
+  margin: 20px 0;
+  font-size: 23px;
+}
+.onsiteCourses p {
+  margin: 0 0 40px 0;
+}
+.courseData {
+  width: 75%;
+}
+.courseCol {
+  display: flex;
+  flex-wrap: wrap;
+}
+.courseDetails {
+  box-shadow: 0 0.7px 4px rgba(0, 0, 0, 0.45);
+  width: 30%;
+  min-height: 340px;
+  margin: 20px 20px 20px 0;
+  border-radius: 10px;
+}
+.courseImgs img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+.courseCategory,
+.courseName,
+.courseDetails hr {
+  margin: 15px 15px 15px 15px;
+}
+.courseCategory {
+  color: rgb(175, 175, 175);
+  font-size: 18px;
+}
+.courseName {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.courseType {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 25px;
+}
+
+/***********FreeCourses*******/
+/*****************************/
+
+.filterData {
+  width: 25%;
+}
+.filter {
+  height: 110vh;
+  position: relative;
+  box-shadow: 0 0.4px 7px rgba(0, 0, 0, 0.45);
+  width: 93%;
+  margin-top: 15px;
+}
+.filter::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  background-color: var(--color-brand--2);
+}
+.filterCategory,
+.filterInstructor,
+.filterLevel {
+  margin: 0 0 20px 10px;
+}
+.filterCategory h3,
+.filterInstructor h3,
+.filterLevel h3 {
+  padding-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.filterBtn {
+  display: flex;
+  color: var(--color-dark--2);
+  background: none;
+  margin: 0 0 10px 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 30px;
+  font-weight: 600;
+}
